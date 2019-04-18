@@ -1,0 +1,47 @@
+{
+  "name": "@nuware/invariant",
+  "version": "1.0.0",
+  "description": "Simple invariant function",
+  "main": "dist/invariant.cjs.js",
+  "module": "dist/invariant.esm.js",
+  "browser": "dist/invariant.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "lint": "eslint src/**",
+    "prebuild": "npm run clean && npm run lint",
+    "build": "rollup -c"
+  },
+  "author": "Dmitry Dudin <dima@nuware.ru>",
+  "homepage": "https://github.com/nuware/invariant#readme",
+  "bugs": {
+    "url": "https://github.com/nuware/invariant/issues"
+  },
+  "repository": "github:nuware/invariant",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "onchange": "^5.2.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.10.0",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+    }
+  }
+}

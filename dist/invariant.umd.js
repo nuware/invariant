@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e=e||self).nuware={})}(this,function(e){"use strict";const n=(e,n="")=>{throw new Error(`${n} ${e}`.trim())};e.invariant=((e,r)=>{if("string"!=typeof r)throw new Error('invariant() argument "message" shoud be a string');Boolean(e)||n(r,"Invariant:")}),e.raiseError=n,Object.defineProperty(e,"__esModule",{value:!0})});
+//# sourceMappingURL=invariant.umd.js.map
