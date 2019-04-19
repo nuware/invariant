@@ -1,5 +1,9 @@
 # invariant
 
+[![npm (scoped)](https://img.shields.io/npm/v/@nuware/invariant.svg)](https://www.npmjs.com/package/@nuware/invariant)
+![NPM](https://img.shields.io/npm/l/@nuware/invariant.svg)
+![Snyk Vulnerabilities for npm package version](https://img.shields.io/snyk/vulnerabilities/npm/@nuware/invariant.svg)
+
 ## Install
 
 ```bash
