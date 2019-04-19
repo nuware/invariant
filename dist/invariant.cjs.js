@@ -2,7 +2,7 @@
  * @nuware/invariant
  * https://github.com/nuware/invariant#readme
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @license MIT
  * @copyright Dmitry Dudin <dima@nuware.ru> 2019
  */
