@@ -5,7 +5,6 @@
   "main": "dist/invariant.cjs.js",
   "module": "dist/invariant.esm.js",
   "browser": "dist/invariant.umd.js",
-  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -13,7 +12,7 @@
     "clean": "rimraf dist",
     "lint": "eslint src/**/*.js",
     "prebuild": "npm run lint && npm run clean",
-    "build": "rollup -c && cp -f src/index.d.ts dist/"
+    "build": "rollup -c"
   },
   "author": "Dmitry Dudin <dima@nuware.ru>",
   "homepage": "https://github.com/nuware/invariant#readme",
