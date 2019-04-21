@@ -1,6 +1,6 @@
 {
   "name": "@nuware/invariant",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple invariant function",
   "main": "dist/invariant.cjs.js",
   "module": "dist/invariant.esm.js",
